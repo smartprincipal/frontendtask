@@ -10,12 +10,6 @@ import Shape from '../src/Asset/Shape.svg'
 import Mail from '../src/Asset/Mail.svg'
 import UserIcon from '../src/Asset/UserIcon.svg'
 
-
-
-
-
-
-
 function App() {
   return (
     <div className="App">
@@ -43,7 +37,7 @@ function App() {
         
         {/* <div className='ball3'></div> */}
 
-        <p className='section1para1'>Turn your best customers into Loyal fans</p>
+        <p className='section1para1'>Turn your best customers into <span className='colorChange'>Loyal fans</span></p>
         <p className='section1para2'>
         Loyalbaze, empowers businesses to offer digital, mobile-first loyalty programs to their customers. With our AI Powered platform, you can easily create and manage custom loyalty and rewards programs, track customer engagement, and gain valuable insights to improve your business. Sign up now to get early access.
         </p>
@@ -166,6 +160,8 @@ function App() {
         </div>
         </div>
       </div>
+
+      
     </div>
 
   );

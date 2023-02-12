@@ -67,6 +67,10 @@ margin-left: auto;
 margin-right: auto;
 color: #FCFCFC;
 }
+.colorChange{
+  color: 
+  rgba(167, 95, 210, 1);
+}
 .section1para2{
 max-width: 910px;
 margin-left: auto;
@@ -416,3 +420,5 @@ line-height: 22px;
   width: 15px;
   height: 15px;
 }
+
+
