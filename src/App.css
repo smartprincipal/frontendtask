@@ -119,7 +119,7 @@ margin-top: -60px;
 }
 .tyy{
   height: 42px;
-  width: 443px;
+  max-width: 443px;
   border-radius: 8px;
   border: 1px solid #fff;
   align-items: center;
@@ -146,7 +146,7 @@ line-height: 22px;
 
 .tyy2{
   height: 42px;
-  width: 443px;
+  max-width: 443px;
   border-radius: 8px;
   border: 1px solid #fff;
   align-items: center;
@@ -293,7 +293,7 @@ letter-spacing: 0em;
 color: #fff;
 }
 .sec2des{
-  width: 168px;
+  max-width: 168px;
   margin: -40px auto 0 auto;
 }
 .section2Sub1Content{
@@ -307,7 +307,7 @@ line-height: 31px;
 }
 .secondForm{
   height: 667px;
-width: 500px;
+max-width: 500px;
 border-radius: 20px;
 background: #1D2939;
 padding: 16px 70px 64px 70px;
@@ -421,4 +421,114 @@ line-height: 22px;
   height: 15px;
 }
 
+@media screen and (max-width: 768px) {
+  .section1Container{
+    padding-bottom: 15px;
+  }
+  .navbar{
+    padding: 30px 30px 0px 40px;
+  }
+  .priorityBtn{
+    display: none;
+  }
+  .ball{
+    display: none;
+  }
+  .ball2{
+    display: none;
+  }
+  .ball3{
+    display: none;
+  }
+  .section1para1{
+    font-size: 32px;
+  }
+  .section1para2{
+    font-size: 16px;
+    margin-top: -20px;
+    padding: 0 10px 0 10px;
+  }
+  .drawing{
+    display: none;
+  }
+  .star1{
+    display: none;
+  }
+  .star2{
+    display: none;
+  }
+  .star3{
+    display: none;
+  }
+  .star4{
+    display: none;
+  }
+.inputss{
+  width: 100%;
+}
+.sec2Btn{
+  width: 300px;
+  }
+  .formm{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .section2{
+    flex-direction: column;
+    padding: 10px;
+  }
+  .ball4{
+    display: none;
+  }
+  .star5{
+    display: none;
+  }
+  .star6{
+    display: none;
+  }
+  .star7{
+    display: none;
+  }
+  .shape{
+   display: none;
+  }
+  .shape2{
+   display: none;
+  }
+  .section2Head{
+    text-align: center;
+    font-size: 32px;
+  }
+  .sec2des{
+    margin-top: -10px;
+  }
+  .section2Sub1Content{
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+  }
+  .secondForm{
+    padding: 16px 10px 64px 10px;
+  }
+  .secondFormHead{
+    padding-bottom: 12px;
+  }
+  .secondFormInput{
+    width: 90%;
+  }
+  select{
+    width: 100%;
+  }
+  .textArea{
+    width: 95%;
+  }
+  .secondFormBtn{
+    width: 100%;
+  }
+  .footerContainer{
+    padding: 0 10px 30px 10px;
+  }
+  .footer{
+    flex-direction: column;
+  }
+}
 

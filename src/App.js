@@ -46,7 +46,7 @@ function App() {
       {/* Form */}
     <div className='section1b'>
       <img src={Drawing} className='drawing'/>
-      <form>
+      <form className='formm'>
       <div className='tyy'>
           <img src={UserIcon}/>
           <input type='email' 
